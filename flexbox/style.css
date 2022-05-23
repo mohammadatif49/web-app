@@ -1,0 +1,27 @@
+.fcontainer{
+display: flex;
+border: 2px solid red;
+height: 45vh;
+justify-content: flex-start;
+align-items:flex-start;
+flex-wrap: wrap-reverse;
+
+
+}
+.fitem{
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    height: 122px;
+    width: 122px;
+
+    
+}.item1{
+    border: 4px ;
+    flex-grow: ;
+    align-self: center;
+}
+.item4{
+    border: 5px solid green;
+flex-grow: 4;
+}
