@@ -1,0 +1,24 @@
+navbar ----
+  <title>navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">galary</a></li>
+          <li><a href="#">service</a></li>
+          <li><a href="#">feedback</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        
+          </ul>
+          <form class="search-form">
+              <input type="text" placeholder="search"> 
+              <button>search</button>
+            
+            </form>
+
+
+    </nav>
+    
