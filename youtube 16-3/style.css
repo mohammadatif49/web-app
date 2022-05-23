@@ -1,0 +1,131 @@
+
+body {
+    background-color: #f9f9f9;
+}
+
+.youtubeheader {
+        background-color: white;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;    
+        height: 80px;
+}
+
+.Youtubelogo {
+    height: 30px;
+    margin: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: grab;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+
+.YoutubeSearchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.YoutubeSearchInput {
+    outline: none;
+    padding: 5px;
+    width: 30em;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.YoutubeSearchInput::-webkit-input-placeholder{
+    font-size: 17px;
+}
+
+.Searchicon {
+    padding: 9px;
+    border: 1px solid gray;
+    background-color: #f8f8f8;
+    padding-right: 25px;
+    padding-left: 25px;
+    outline: none;
+    cursor: grab;
+}
+
+.YoutubeHeaderIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.YoutubeHeaderIcon {
+    color: #606060;
+    margin: 13px;
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.YoutubeBottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.YoutubeSidebar {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(158, 240, 142);
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+
+.Sidebar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.Sidebar:hover {
+    background-color: #b6b6b8ab;
+}
+
+.Sidebar img {
+    font-size: 15px;
+    color: #606060;
+    margin: 10px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+.Sidebar h1 {
+    font-size: 15px;
+}
+
+.YoutubeVideos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    flex: 1 1 100px;
+    margin-left: 250px;
+    width: 100%;
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 50%px;
+    padding: 10px;
+    cursor: pointer;
+}
