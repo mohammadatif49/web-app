@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(127, 214, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    margin-top: 150px ;
+}
+form{
+    background-color: rgb(161, 238, 66);
+    width: 35%;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius: 16px;
+
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
+.radio{
+    text-align: center;
+    padding: 15px;
+    word-spacing: 3px;
+}
+input.email{
+background-image: url('https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png');
+    width: 82%;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+    box-shadow: 10px -10px 10px;
+    
+
+}
+input.password{
+    width: 82%;
+    background-image: url("data:image/png;base64,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");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    padding-left: 10px;
+    box-shadow: 10px -10px 10px;
+    border-radius: 10px;
+padding-left: 30px;}
+
+button{
+   
+
+    border: none;
+    align-items: center;
+    background-color: rgb(255, 0, 221);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    padding:10px;
+    margin-left: 200px;
+font-size: x-large;}
+h1:hover{
+    background-color: brown;
+}   
+button:hover{
+    background-color: blue;
+
+} 
+
+input.email:hover{
+    background-color: rgb(217, 255, 0);
+}
+input.password:hover{
+    background-color: rgb(70, 12, 231);
+}
+p{
+    background-color: rgb(248, 188, 24);
+    align-items: center;
+padding-left: 150px;
+font-style: italic ;
+color: black;
+}
+p:hover{
+    background-color: blue;
+}
